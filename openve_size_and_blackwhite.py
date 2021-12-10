@@ -22,10 +22,11 @@ def chang_HSV():
     rose = cv2.imread('./rose.jpg')
     HSV_rose = cv2.cvtColor(rose, code=cv2.COLOR_BGR2HSV)  #
     cv2.imshow('HSV', HSV_rose)
+    print(HSV_rose)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     # size_blackwhite()
-    change_blackwhite()
+    # change_blackwhite()
     chang_HSV()
