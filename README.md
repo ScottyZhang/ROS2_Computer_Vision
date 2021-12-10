@@ -14,3 +14,6 @@ img is 3-D Array
 
 imresize() Picture size change
 
+## Main Goal
+DEAL WITH CLASSIFIER!
+
